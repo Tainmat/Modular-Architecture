@@ -14,9 +14,11 @@ export function ComModularizacao() {
 
       <S.DivForms>
         {totalForms.map((item) => (
-          <SquareAndCyrcles size="md" color="success" type="cyrcle">
-            {item}
-          </SquareAndCyrcles>
+          <>
+            <SquareAndCyrcles size="md" color="success" type="square">
+              {item}
+            </SquareAndCyrcles>
+          </>
         ))}
       </S.DivForms>
     </S.Container>
