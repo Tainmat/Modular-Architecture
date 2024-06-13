@@ -1,11 +1,11 @@
-import { Header } from "./Layout/components/Header";
+import { Layout } from "./Layout/components";
 
 export function ComModularizacao() {
   return (
     <>
-      <Header title="Casa do Construtor" />
-
-      <div>Conteúdo da Aplicação</div>
+      <Layout>
+        <div>Conteúdo da Aplicação</div>
+      </Layout>
     </>
   );
 }

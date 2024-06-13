@@ -1,13 +1,9 @@
 import * as S from "./Header.styles";
 
-interface Props {
-  title: string;
-}
-
-export function Header({ title }: Props) {
+export function Header() {
   return (
     <S.Container>
-      <h1>{title}</h1>
+      <h1>Casa do Construtor</h1>
     </S.Container>
   );
 }
