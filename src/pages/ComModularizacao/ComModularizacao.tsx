@@ -13,9 +13,9 @@ export function ComModularizacao() {
       </Paragraph>
 
       <S.DivForms>
-        {totalForms.map((item) => (
+        {totalForms.map((item, idx) => (
           <>
-            <SquareAndCyrcles size="md" color="danger" type="square">
+            <SquareAndCyrcles key={idx} size="md" color="danger" type="square">
               {item}
             </SquareAndCyrcles>
           </>
