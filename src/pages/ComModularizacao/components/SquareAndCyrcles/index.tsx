@@ -1,0 +1,1 @@
+export { SquareAndCyrcles } from "./SquareAndCyrcles";
