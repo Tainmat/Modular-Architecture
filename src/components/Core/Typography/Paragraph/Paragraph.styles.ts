@@ -12,15 +12,15 @@ export const Container = styled.div<Props>`
       font-weight: 400;
 
       ${props.size === "sm" && css`
-        font-size: 10px;  
+        font-size: 0.75rem;  
       `}
 
       ${props.size === "md" && css`
-        font-size: 12px;  
+        font-size: 0.875rem;  
       `}
 
       ${props.size === "lg" && css`
-        font-size: 14px;  
+        font-size: 1rem;  
       `}
 
       ${props.color === "primary" && css`
@@ -28,7 +28,7 @@ export const Container = styled.div<Props>`
       `}
 
       ${props.color === "secondary" && css`
-        color:  #02226A;
+        color:  #fff;
       `}
   `}
 `

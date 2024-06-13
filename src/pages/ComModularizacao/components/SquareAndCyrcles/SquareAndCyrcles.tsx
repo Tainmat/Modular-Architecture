@@ -14,14 +14,14 @@ export function SquareAndCyrcles({ color, size, type, children }: Props) {
     <>
       {type === "cyrcle" && (
         <S.Cyrcle color={color} size={size}>
-          <Paragraph size="md" color="secondary">
+          <Paragraph size={size} color="secondary">
             {children}
           </Paragraph>
         </S.Cyrcle>
       )}
       {type === "square" && (
         <S.Square color={color} size={size}>
-          <Paragraph size="md" color="secondary">
+          <Paragraph size={size} color="secondary">
             {children}
           </Paragraph>
         </S.Square>
